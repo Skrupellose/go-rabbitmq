@@ -20,7 +20,7 @@ func handlerTask(msg []byte) error {
 
 func main() {
 	var (
-		addr     = "amqp://guest:guest@162.14.106.242:5672"
+		addr     = ""
 		queue    = "hl-testQueue"
 		exchange = "hl-test_exchange"
 	)
